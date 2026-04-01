@@ -20,7 +20,7 @@ public class Test {
 
     // Division
     static void div(int a, int b) {
-        if (b != 0) {
+         {
             double res = (double) a / b;
             System.out.println("Division result: " + res);
         } else {
