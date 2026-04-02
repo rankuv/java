@@ -13,7 +13,7 @@ public class Test {
     }
 
     // Multiplication
-     void mul(int a, int b) {
+    static void mul(int a, int b) {
         int res = a * b;
         System.out.println("Multiplication result: " + res);
     }
