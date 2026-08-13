@@ -39,8 +39,3 @@ public class Test {
         div(x, y);
     }
 }
-        div(x, y);
-    
-
-    }
-}
