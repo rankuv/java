@@ -2,7 +2,7 @@ public class Test {
 
     // Addition
     static void add(int a, int b) {
-       
+        int res = a + b;
         System.out.println("Addition result: " + res);
     }
 
@@ -20,7 +20,7 @@ public class Test {
 
     // Division
     static void div(int a, int b) {
-         {
+        if (b != 0) {
             double res = (double) a / b;
             System.out.println("Division result: " + res);
         } else {
@@ -36,6 +36,9 @@ public class Test {
         add(x, y);
         sub(x, y);
         mul(x, y);
+        div(x, y);
+    }
+}
         div(x, y);
     
 
